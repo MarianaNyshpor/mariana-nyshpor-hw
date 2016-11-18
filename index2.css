@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    background-color: #a686b7;
+}
+ .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+    border-radius: 4px;
+    background-color: white;
+    font-family: cursive;
+}
+table, td, caption {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+caption, td {
+    padding: 15px;
+}
+.header{
+    background-color: #ba415d;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+    
+}
+.day {
+    font-family: sans-serif;
+    font-size: large;
+}
+.noactive {
+    color:#91888a;
+}
